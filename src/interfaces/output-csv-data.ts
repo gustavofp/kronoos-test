@@ -1,0 +1,31 @@
+export interface OutputCvsData {
+  nrInst: number;
+  nrAgencia: number;
+  cdClient: number;
+  nmClient: string;
+  nrCpfCnpj: string;
+  nrContrato: number;
+  dtContrato: Date;
+  qtPrestacoes: number;
+  vlTotal: string;
+  cdProduto: number;
+  dsProduto: string;
+  cdCarteira: number;
+  dsCarteira: string;
+  nrProposta: number;
+  nrPresta: number;
+  tpPresta: string;
+  nrSeqPre: number;
+  dtVctPre: Date;
+  vlPresta: number;
+  vlMora: string;
+  vlMulta: string;
+  vlOutAcr: string;
+  vlIof: string;
+  vlDescon: string;
+  vlAtual: string;
+  idSituac: string;
+  idSitVen: string;
+  isValid: boolean;
+  validatitionErrors: string[];
+}
